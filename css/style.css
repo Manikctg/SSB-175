@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	} 
+	.logo{
+		
+	}
+	img{
+		max-width: 100%;
+		display: block;
+		}
+		li{
+			list-style: none;
+		}
+		a,a:hover{
+			text-decoration: none;
+		}
+
+		body{
+			font-family: 'Open Sans', sans-serif;
+			
+		}
+
+		.container{
+			width: 1170px
+			margin: auto;
+		}
+		.flex{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+
+/*=============================
+           HEADER
+==============================*/    
+
+header{
+    display: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+header .flex{align-items: center;}
+.logp{}
+.logo h1{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.logo h1 span{
+    display: block;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1;
+}
+nav{
+    max-width: 80%;
+    flex: 0 0 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{/* border: 1px solid; */color: #fff;display: inline-block;padding: 10px 20px;border-radius: 30px;text-transform: uppercase;font-size: 16px;font-weight: 400;transition-duration: .4s;}
+nav ul li a:hover{
+    background: #a50202;
+}
+nav ul li:last-child a{
+    border: 1px solid;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*=============================
+           HEADER
+==============================*/ 
+
+/*=============================
+           BANNER  SECTION
+==============================*/ 
+
+#banner-section{
+    background-image: url(../images/image1.jpg);
+    background-color: #00000087;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+#banner-section .flex{
+    align-items: center;
+    min-height: 45vw;
+}
+.banner-content{
+    color: #fff;
+    text-align: center;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.banner-content h4{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.banner-content h4::after{content: "";width: 100px;height: 5px;background: #a50202;display: block;position: absolute;bottom: 0;left: 45%;}
+.banner-content h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.learnMore{}
+
+/*=============================
+           BANNER  SECTION
+==============================*/ 
+
+/*=============================
+           EVENT  SECTION
+==============================*/ 
+
+#event-section{
+    padding: 50px 0;
+}
+.heading{}
+.heading h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.heading h2::after{
+	content: "";
+	width: 100px;
+	height: 5px;
+	bottom: 0;
+	background: #a50202;
+	display: block;
+	position: absolute;
+	left: 47%;
+}
+.event-section .heading{}
+.event{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 50px 20px;
+    text-align: center;
+}
+.event img{
+    box-shadow: 10px 10px 0 #ececec;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.event h5{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.event p{
+    font-size: 16px;
+    padding-bottom: 15px;
+    line-height: 22px;
+}
+.event a{}
+.event a:hover i{}
+
+/*=============================
+          EVENT  SECTION
+==============================*/ 
+/*=============================
+           EXPLORE  SECTION
+==============================*/ 
+
+#explore-section{
+    background-image: url(../images/image4.jpg);
+    background-color: #0e0e0ea6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+#explore-section .flex{
+    min-height: 45vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+.explore{
+    color: #fff;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.explore h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-bottom: 10px;
+    display: block;
+    position: relative;
+}
+.explore h1::after{
+	content: "";
+	content: "";
+	width: 100px;
+	height: 5px;
+	background: #a50202;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+.explore p{
+    font-size: 16px;
+    padding-bottom: 15px;
+    line-height: 22px;
+}
+.explore a{}
+.explore a:hover i{}
+
+/*=============================
+           EXPLORE  SECTION
+==============================*/  
+
+/*=============================
+           TOURS  SECTION
+==============================*/ 
+
+#tours-section{}
+#tours-section .flex{}
+.tours-content{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+}
+.tours-content .heading{}
+.tours-content p{}
+.tours-gallery{
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+    padding: 20px;
+}
+.tours-gallery .gallery{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+.tours-gallery .gallery img{
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/*=============================
+           TOURS  SECTION
+==============================*/ 
+
+/*=============================
+           FOOTER
+==============================*/ 
+footer{
+    padding: 30px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+footer address{
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+footer p{
+    letter-spacing: 3px;
+}
+footer p a{color: red;}
+
+/*=============================
+           FOOTER 
+==============================*/
+
+
+
+
+
